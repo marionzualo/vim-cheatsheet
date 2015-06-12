@@ -36,3 +36,13 @@ C-j, C-k  to navigate the result list
 # Rails Shortcuts
 :Emodel, :Eview, :Econtroller, are provided to :edit files by type, along with S, V, and T variants for :split, :vsplit, and :tabedit. Throw a bang on the end (:Emodel foo!) to automatically create the file with the standard boilerplate if it doesn't exist. :help rails-navigation
 :A (alternate) and :R (related) for easy jumping between files
+
+# Vim cucumber shortcuts
+
+[<C-d> or ]<C-d> on a step jumps to the corresponding step definition and replaces the current buffer. 
+<C-W>d or <C-w><C-d> on a step jumps to its definition in a new split buffer and moves the cursor there.
+[d or ]d on a step opens the step definition in a new split buffer while maintaining the current cursor position.
+
+# Splits shortcuts
+C-J, C-K, C-L, C-H - navigate splits
+:q - close split
